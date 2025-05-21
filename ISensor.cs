@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    public interface ISmsAlert
+    public interface ISensor
     {
-         void SendSms(string to, string message); 
+        double GetLevel();
     }
 }

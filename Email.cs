@@ -8,7 +8,7 @@ namespace Solid_Principle
 {
     internal class Email : IEmailAlert
     {
-        public static void SendEmail(string to, string message)
+        public  void SendEmail(string to, string message)
         {
             Console.WriteLine($"Sending email to {to}: {message}");
         }

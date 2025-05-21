@@ -8,7 +8,7 @@ namespace Solid_Principle
 {
     internal class DatabaseLogger : ILogger
     {
-        public void SaveLog(string logTo, string message);
+        public void SaveLog(string logTo, string message)
         {
             Console.WriteLine($"save log to {logTo}");
         }
