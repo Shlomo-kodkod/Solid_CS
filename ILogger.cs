@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Solid_Principle
 {
-    internal interface ILogger
+    public interface ILogger
     {
+        void SaveLog(string logTo, string message);
     }
 }

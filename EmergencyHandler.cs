@@ -12,7 +12,7 @@ namespace Solid_Principle
         {
             Console.WriteLine("Emergency shutdown triggered!");
             File.WriteAllText("log.txt", "EMERGENCY OCCURRED");
-            Email.Send("admin@spaceagency.com", "Emergency triggered");
+            Email.SendEmail("admin@spaceagency.com", "Emergency triggered");
         }
     }
 }
